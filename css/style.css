@@ -1,0 +1,58 @@
+:root {
+   --fg: #FEFAEC;
+   --fgalt: #F9E79F;
+   --bglight: #553D27;
+   --bgmid: #382819;
+   --bgdark: #2A1E13;
+   --acc: #F6B39D;
+   --acc2: #EE6C4D;
+}
+
+h1 {
+   color: var(--fg)
+}
+
+h2 {
+   color: var(--acc2)
+}
+
+h3 {
+   color: var(--fgalt)
+}
+
+body {
+   background: var(--bgmid);
+   padding-left: 40px;
+   padding-right: 40px;
+}
+
+.comida {
+   display: inline-flex;
+   padding: 30px;
+}
+
+.comida img {
+   height: 200px;
+   width: 200px;
+   clip-path: circle(50% at 50% 50%);
+   margin: 0px 20px;
+}
+
+.comida p {
+   color: var(--fg);
+   min-width: 900px;
+   min-height: 130px;
+   max-height: 150px;
+   margin: 0px 10px;
+   background: var(--bgdark);
+}
+
+.comida h2 {
+   background: var(--bglight);
+   color : var(--fgalt);
+}
+
+.comida p, .comida h2 {
+   padding: 10px;
+   margin: 0;
+}
